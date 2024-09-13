@@ -1711,7 +1711,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   srcExclude: ['tutorial/**/description.md'],
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/images/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:url', content: 'https://b.252x.com' }],
     ['meta', { property: 'og:type', content: 'website' }],
@@ -1774,7 +1774,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/images/logo.svg',
     siteTitle: 'googlefonts',
     nav,
     sidebar,
