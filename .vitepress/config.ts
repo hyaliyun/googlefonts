@@ -1701,7 +1701,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
   ignoreDeadLinks: true,
   sitemap: {
-    hostname: 'https://c.252x.com'
+    hostname: 'https://b.252x.com'
   },
 
   lang: 'en-US',
@@ -1713,7 +1713,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
-    ['meta', { property: 'og:url', content: 'https://c.252x.com' }],
+    ['meta', { property: 'og:url', content: 'https://b.252x.com' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'googlefonts' }],
     [
